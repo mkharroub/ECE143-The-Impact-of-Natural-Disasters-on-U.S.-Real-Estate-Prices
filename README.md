@@ -24,10 +24,10 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
 
 
 ## Authors
-- Mohammed Kharroub - *Data Engineering* - []()
-- Rohan Shingre - *Data Analysis* - []()
+- Mohammed Kharroub - *Data Engineering* - [mkharroub](https://github.com/mkharroub)
+- Rohan Shingre - *Data Analysis* - [Ulorewien](https://github.com/Ulorewien)
 - Avyakta Kalipattapu - *Visualization* - []()
-- Keke Hu - *Testing and Integration* - []()
+- Keke Hu - *Testing and Integration* - [cocoa-hu](https://github.com/cocoa-hu)
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE.md` file for details

@@ -28,8 +28,23 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
   - Specific Datasets: 1.Historical Housing Data (Median Prices of Existing Single Family Homes):(https://www.car.org/marketdata/data/housingdata)
 
 ## Usage
+- **Python Prerequisite**
+  - Ensure that you have Python version 3.9 or above
 
+- **Clone the GitHub Repository**
+  - Use command "git clone https://github.com/mkharroub/ECE143-The-Impact-of-Natural-Disasters-on-U.S.-Real-Estate-Prices/tree/main" in your local machine
+  - Navigate to the repository folder using the command "cd ECE143-The-Impact-of-Natural-Disasters-on-U.S.-Real-Estate-Prices"
+  - Install the dependencies using the command "pip install -r requirements.txt"
 
+- **Launch Jupyter Notebook**
+  - Ensure that Jupyter Notebook is installed.
+  - Start Jupyter Notebook
+  - This will open a new tab in your web browser with the Jupyter Notebook interface.
+
+- **Open and Run the Python Notebook**
+  - In the Jupyter Notebook interface, navigate to the directory where the Python notebook is located.
+  - Click on the notebook file (usually with a .ipynb extension) to open it.
+  - Run the notebook cells one by one or use the "Run All" option to execute all cells.
 
 ## Authors
 - Mohammed Kharroub - *Data Engineering* - [mkharroub](https://github.com/mkharroub)

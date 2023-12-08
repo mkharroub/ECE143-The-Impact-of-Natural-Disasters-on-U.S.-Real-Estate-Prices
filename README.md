@@ -15,18 +15,26 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
   - Website: [U.S. Census Bureau](https://www.census.gov/)
   - Data Access: [Data Repository](https://www.census.gov/data.html)
   - Specific Datasets: 1.American Housing Survey (AHS):(https://www.census.gov/programs-surveys/ahs.html)
-		       2.American Community Survey (ACS):(https://www.census.gov/programs-surveys/acs)
+		                   2.American Community Survey (ACS):(https://www.census.gov/programs-surveys/acs)
 
+- **Texas A&M Real Estate Research Center**
+  - Data on Texas housing prices and related statistics.
+  - Website: [Texas A&M Real Estate Research Center](https://www.recenter.tamu.edu/)
+  - Specific Datasets: 1.Texas Home Price Index (HPI):(https://www.recenter.tamu.edu/data/home-price-index)
+
+- **California Association of Realtors**
+  - Data on CA housing prices and related statistics.
+  - Website: [California Association of Realtors](https://www.car.org/)
+  - Specific Datasets: 1.Historical Housing Data (Median Prices of Existing Single Family Homes):(https://www.car.org/marketdata/data/housingdata)
 
 ## Usage
-- Data collection scripts are located in the `scripts/` directory.
-- Run `python scripts/data_collection.py` to start the data collection process.
+
 
 
 ## Authors
 - Mohammed Kharroub - *Data Engineering* - [mkharroub](https://github.com/mkharroub)
 - Rohan Shingre - *Data Analysis* - [Ulorewien](https://github.com/Ulorewien)
-- Avyakta Kalipattapu - *Visualization* - []()
+- Avyakta Kalipattapu - *Visualization* - [avyaktaKR](https://github.com/avyaktaKR)
 - Keke Hu - *Testing and Integration* - [cocoa-hu](https://github.com/cocoa-hu)
 
 ## License

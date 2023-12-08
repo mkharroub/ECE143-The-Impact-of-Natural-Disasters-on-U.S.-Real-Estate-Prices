@@ -46,6 +46,15 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
   - Click on the notebook file (usually with a .ipynb extension) to open it.
   - Run the notebook cells one by one or use the "Run All" option to execute all cells.
 
+## File Structure
+  - dataset: This folder contains all the datasets used in our project.
+  - plots: This directory contains HTML files or any other format generated from the code in our main notebook.
+  - png: This directory contains image files generated from the code in our main notebook.
+  - scripts: This folder contains Python files with utility functions used in our main notebook.
+  - main.ipynb: This is our main Jupyter Notebook file where our project code resides.
+  - README.md: This file can contain documentation, instructions, or any information relevant to our project. It's typically the first thing people see when they visit our GitHub repository.
+  - requirements.txt: This file lists all the Python packages and their versions required for our project. It allows others to easily set up the same environment.
+
 ## Authors
 - Mohammed Kharroub - *Data Engineering* - [mkharroub](https://github.com/mkharroub)
 - Rohan Shingre - *Data Analysis* - [Ulorewien](https://github.com/Ulorewien)

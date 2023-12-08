@@ -3,7 +3,7 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 
-def plot_bar_and_line(x, y_bar, y_line, name_bar="", name_line="", title="", x_title="", y_bar_title="", y_line_title="", filename=""):
+def plot_bar_and_line(x, y_bar, y_line, name_bar="", name_line="", title="", x_title="", y_bar_title="", y_line_title="", filename="plot_bar_line.html"):
     """
     Create and display a combined bar and line plot using Plotly.
 
@@ -47,10 +47,10 @@ def plot_bar_and_line(x, y_bar, y_line, name_bar="", name_line="", title="", x_t
         legend=dict(x=0.02, y=1.0, font=dict(size=16))
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_bar_chart(name, val,title, title_yaxis,filename):
+def plot_bar_chart(name, val,title="", title_yaxis="",filename="plot_bar.html"):
     """
     Create and display a bar chart using Plotly Express.
 
@@ -88,10 +88,10 @@ def plot_bar_chart(name, val,title, title_yaxis,filename):
         bargap=0.5,
         bargroupgap=0.1,
     )
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_scatter_line(x, y, name="", title="", x_title="", y_title="", filename=""):
+def plot_scatter_line(x, y, name="", title="", x_title="", y_title="", filename="plot_scatter.html"):
     """
     Create and display a scatter plot with a line using Plotly.
 
@@ -130,10 +130,10 @@ def plot_scatter_line(x, y, name="", title="", x_title="", y_title="", filename=
         legend=dict(x=0.02, y=1.0, font=dict(size=16))
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_heatmap(heatmap, title="", x_title="", y_title="", filename=""):
+def plot_heatmap(heatmap, title="", x_title="", y_title="", filename="plot_heatmap.html"):
     """
     Create and display a heatmap using Plotly based on a pandas DataFrame.
 
@@ -174,10 +174,10 @@ def plot_heatmap(heatmap, title="", x_title="", y_title="", filename=""):
         xaxis_range=[heatmap.columns[0], heatmap.columns[-1]],
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_two_scatter_lines(x, y1, y2, name1="", name2="", title="", x_title="", y_title1="", y_title2="", filename=""):
+def plot_two_scatter_lines(x, y1, y2, name1="", name2="", title="", x_title="", y_title1="", y_title2="", filename="plot_two_scatter.html"):
     """
     Create and display a plot with two scatter lines using Plotly.
 
@@ -222,10 +222,10 @@ def plot_two_scatter_lines(x, y1, y2, name1="", name2="", title="", x_title="", 
         legend=dict(x=0.02, y=1.0, font=dict(size=16))
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_correlation(corr_data, corr_p, x, y, title="", filename=""):
+def plot_correlation(corr_data, corr_p, x, y, title="", filename="plot_corr.html"):
     """
     Create and display a heatmap of correlation coefficients with significance indicators using Plotly Express.
 
@@ -264,10 +264,10 @@ def plot_correlation(corr_data, corr_p, x, y, title="", filename=""):
         bargroupgap=0.1,
     )
     
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_two_lines(x1,x2, y1, y2, name1="", name2="", title="", x_title="", y_title="",legend={},filename=""):
+def plot_two_lines(x1,x2, y1, y2, name1="", name2="", title="", x_title="", y_title="",legend={},filename="plot_two_lines.html"):
     """
     Create and display a plot with two lines using Plotly.
 
@@ -316,10 +316,10 @@ def plot_two_lines(x1,x2, y1, y2, name1="", name2="", title="", x_title="", y_ti
         legend=legend
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()
 
-def plot_reverse_bars(x, y, text, name="", title="", x_title="", y_title="", filename=""):
+def plot_reverse_bars(x, y, text, name="", title="", x_title="", y_title="", filename="plot_reverse_bars.html"):
     """
     Create and display a bar plot with reversed y-axis values using Plotly.
 
@@ -360,5 +360,5 @@ def plot_reverse_bars(x, y, text, name="", title="", x_title="", y_title="", fil
         bargroupgap=0.1
     )
 
-    fig.write_html(filename)
+    fig.write_html("./plots/"+filename)
     fig.show()

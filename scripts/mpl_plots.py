@@ -36,7 +36,7 @@ def plot_time_series(x_values, y_values, x_label="", y_label="", title="", path=
     ax.tick_params(axis='x', labelrotation=45, labelsize=15)
 
     if path:
-        plt.savefig(path)
+        plt.savefig("./plots/"+path)
 
     plt.show()
 
@@ -75,7 +75,7 @@ def plot_two_time_series(x_values1, x_values2, y_values1, y_values2, x_label="",
     ax.legend()
 
     if path:
-        plt.savefig(path)
+        plt.savefig("./plots/"+path)
 
     plt.show()
 
@@ -110,11 +110,11 @@ def plot_scatter(x_values, y_values, x_label="", y_label="", title="", path=""):
     plt.scatter(x_values.to_numpy(), y_values.to_numpy())
     
     if path:
-        plt.savefig(path)
+        plt.savefig("./plots/"+path)
         
     plt.show()
 
-def plot_disasters_map(gdf, variable, label, save_name, title1="", anno=""):
+def plot_disasters_map(gdf, variable, label, save_name="plot_dis_map.png", title1="", anno=""):
     """
     Create and save a choropleth map of a GeoDataFrame based on a specified variable.
 
@@ -203,9 +203,9 @@ def plot_disasters_map(gdf, variable, label, save_name, title1="", anno=""):
     hawaii_gdf.clip(hipolygon).plot(
         column=variable, color=hawaii_gdf['value_determined_color'], linewidth=0.8, ax=hiax, edgecolor='0.8')
 
-    fig.savefig(os.getcwd()+save_name, dpi=400, bbox_inches="tight")
+    fig.savefig(os.getcwd()+"./plots/"+save_name, dpi=400, bbox_inches="tight")
 
-def plot_disasters_map1(gdf, save_name, title="", label1="", label2=""):
+def plot_disasters_map1(gdf, save_name="plot_dis_map1.png", title="", label1="", label2=""):
     """
     Create and save a choropleth map of disaster levels using Matplotlib and GeoPandas.
 
@@ -264,4 +264,4 @@ def plot_disasters_map1(gdf, save_name, title="", label1="", label2=""):
     for label in legend.get_texts():
         label.set_fontsize(20) 
 
-    fig.savefig(os.getcwd()+save_name, dpi=400, bbox_inches="tight")
+    fig.savefig(os.getcwd()+"./plots/"+save_name, dpi=400, bbox_inches="tight")

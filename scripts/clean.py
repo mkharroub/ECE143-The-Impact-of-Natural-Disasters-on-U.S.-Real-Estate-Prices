@@ -47,7 +47,7 @@ def makeColorColumn(gdf,variable,vmin,vmax):
     Returns:
     - pd.DataFrame: The GeoDataFrame with the added 'value_determined_color' column.
     """
-    assert isinstance(gdf, pd.DataFrame) and isinstance(variable, str) and isinstance(vmin, (int, float)) and isinstance(vmax, (int, float))
+    assert isinstance(gdf, pd.DataFrame) and isinstance(variable, str) and isinstance(vmin, (int, float, np.int64)) and isinstance(vmax, (int, float, np.int64))
     
     norm = mcolors.Normalize(vmin=vmin, vmax=vmax, clip=True)
     mapper = plt.cm.ScalarMappable(norm=norm, cmap=plt.cm.YlOrBr)

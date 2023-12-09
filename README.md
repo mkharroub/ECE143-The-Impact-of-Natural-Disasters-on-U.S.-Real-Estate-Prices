@@ -12,7 +12,7 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
 - **Federal Housing Finance Agency**
   - Data on U.S. housing prices and related statistics.
   - Website: [Federal Housing Finance Agency](https://www.fhfa.gov/)
-  - Specific Datasets: 1. Annual House Price Indexes (Counties (Developmental Index; Not Seasonally Adjusted)):(https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx#qpo)
+  - Specific Datasets: 1. Annual House Price Indexes (Counties (Developmental Index; Not Seasonally Adjusted):(https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx#qpo)
 		                  
 ## Usage
 - **Python Prerequisite**

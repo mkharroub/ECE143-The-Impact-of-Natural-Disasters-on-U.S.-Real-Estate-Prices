@@ -7,26 +7,13 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
 - **NOAA (National Oceanic and Atmospheric Administration)**
   - Data on natural disasters in the U.S.
   - Website: [NOAA's National Centers for Environmental Information](https://www.ncdc.noaa.gov/)
-  - Specific Datasets: 1.NOAA's Billion-Dollar Weather and Climate Disasters Database:(https://www.ncei.noaa.gov/access/billions/)
-                       2.NOAA's Storm Events Database:(https://www.ncdc.noaa.gov/stormevents/ftp.jsp)
+  - Specific Datasets: 1.NOAA's Storm Events Database:(https://www.ncdc.noaa.gov/stormevents/ftp.jsp)
 
-- **U.S. Census Bureau**
+- **Federal Housing Finance Agency**
   - Data on U.S. housing prices and related statistics.
-  - Website: [U.S. Census Bureau](https://www.census.gov/)
-  - Data Access: [Data Repository](https://www.census.gov/data.html)
-  - Specific Datasets: 1.American Housing Survey (AHS):(https://www.census.gov/programs-surveys/ahs.html)
-		                   2.American Community Survey (ACS):(https://www.census.gov/programs-surveys/acs)
-
-- **Texas A&M Real Estate Research Center**
-  - Data on Texas housing prices and related statistics.
-  - Website: [Texas A&M Real Estate Research Center](https://www.recenter.tamu.edu/)
-  - Specific Datasets: 1.Texas Home Price Index (HPI):(https://www.recenter.tamu.edu/data/home-price-index)
-
-- **California Association of Realtors**
-  - Data on CA housing prices and related statistics.
-  - Website: [California Association of Realtors](https://www.car.org/)
-  - Specific Datasets: 1.Historical Housing Data (Median Prices of Existing Single Family Homes):(https://www.car.org/marketdata/data/housingdata)
-
+  - Website: [Federal Housing Finance Agency](https://www.fhfa.gov/)
+  - Specific Datasets: 1. Annual House Price Indexes (Counties (Developmental Index; Not Seasonally Adjusted)):(https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index-Datasets.aspx#qpo)
+		                  
 ## Usage
 - **Python Prerequisite**
   - Ensure that you have Python version 3.9 or above
@@ -56,14 +43,11 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
   - requirements.txt: This file lists all the Python packages and their versions required for our project. It allows others to easily set up the same environment.
 
 ## Authors
-- Mohammed Kharroub - *Data Engineering* - [mkharroub](https://github.com/mkharroub)
-- Rohan Shingre - *Data Analysis* - [Ulorewien](https://github.com/Ulorewien)
-- Avyakta Kalipattapu - *Visualization* - [avyaktaKR](https://github.com/avyaktaKR)
-- Keke Hu - *Testing and Integration* - [cocoa-hu](https://github.com/cocoa-hu)
+- Avyakta Kalipattapu - [avyaktaKR](https://github.com/avyaktaKR)
+- Keke Hu - [cocoa-hu](https://github.com/cocoa-hu)
+- Mohammed Kharroub - [mkharroub](https://github.com/mkharroub)
+- Rohan Shingre - [Ulorewien](https://github.com/Ulorewien)
 
 ## License
 This project is licensed under the MIT License - see the `LICENSE.md` file for details
-
-## Acknowledgments
--
 

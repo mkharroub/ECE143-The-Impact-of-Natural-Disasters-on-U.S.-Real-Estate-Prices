@@ -46,6 +46,13 @@ This project analyzes how natural disasters such as hurricanes and wildfires aff
   - Click on the notebook file (usually with a .ipynb extension) to open it.
   - Run the notebook cells one by one or use the "Run All" option to execute all cells.
 
+## Third Party Packages
+  - Pandas - A powerful data manipulation and analysis library.
+  - GeoPandas: Pandas for geospatial data.
+  - Plotly: Interactive Python plots.
+  - Matplotlib: Core Python plotting.
+  - NumPy: Numerical computing powerhouse.
+
 ## File Structure
   - dataset: This folder contains all the datasets used in our project.
   - plots: This directory contains HTML files or any other format generated from the code in our main notebook.
